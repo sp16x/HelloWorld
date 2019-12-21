@@ -1,0 +1,66 @@
+body
+{
+	background-color: black;
+	color: white;
+	font-family: "GlacialIndifferenceRegular";
+}
+.elem_if1
+{
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+	box-shadow: 2px 4px grey;
+	width: 90vw;
+	height: 8vh;
+	padding-left: 5vw;
+	font-size: 2vh;
+	padding-left: 5vw;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	text-transform: uppercase;
+}
+.elem_if1:active,.elem_if1:focus,.elem_if1:hover
+{
+	border: 1px solid yellow;
+	box-shadow: 2px 4px yellow;
+	color: yellow;
+}
+/*---*/
+#mm_container
+{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+#mm_source_label
+{
+	font-size: 4vh;
+	position: relative;
+	top: 0;
+}
+#mm_source_input
+{
+
+	position: relative;
+	top: 100vh;
+}
+/*---*/
+#splash_container
+{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+#splash_bigtext
+{
+	font-size: 7vh;
+	position: relative;
+	top: 40vh;
+}
+#splash_cpr
+{
+	font-size: 2vh;
+	position: relative;
+	top: 85vh;
+	right: 15vh;
+}
